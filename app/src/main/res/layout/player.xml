@@ -154,6 +154,15 @@
                     app:srcCompat="@drawable/ic_subtitles_black_24dp"
                     app:tint="@color/tint_normal" />
 
+                <Button
+                    android:id="@+id/rewindBtn"
+                    style="?buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="@string/ui_seek_back"
+                    android:textColor="@android:color/white" />
+
                 <ImageButton
                     android:id="@+id/playBtn"
                     style="?buttonBarButtonStyle"
@@ -162,6 +171,24 @@
                     android:textColor="@android:color/white"
                     app:tint="@color/tint_normal"
                     tools:src="@drawable/ic_play_arrow_black_24dp" />
+
+                <Button
+                    android:id="@+id/forwardBtn"
+                    style="?buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="@string/ui_seek_fwd"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/skipIntroBtn"
+                    style="?buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="0dp"
+                    android:text="@string/ui_skip_intro"
+                    android:textColor="@android:color/white" />
 
                 <Button
                     android:id="@+id/cycleDecoderBtn"
